@@ -13,7 +13,7 @@ app.use(cors());
 
 // connect to MongoDB
 mongoose
-  .connect("mongodb://127.0.0.1:27017/mydatabase12", {
+  .connect("mongodb+srv://admin:Admin1234@cluster0.pnjodpn.mongodb.net/test", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
